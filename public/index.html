@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title>Stories, Chapters and Paragraphs: Structuring Content with Storyblok and Vue.js</title>
+    <% if (VUE_APP_STORYBLOK_BRIDGE === 'true') { %>
+      <script src="//app.storyblok.com/f/storyblok-latest.js?t=<%= VUE_APP_ACCESS_TOKEN %>" type="text/javascript"></script>
+    <% } %>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but Stories, Chapters and Paragraphs: Structuring Content with Storyblok and Vue.js doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>

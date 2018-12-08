@@ -1,0 +1,13 @@
+@import '../settings/spacings';
+
+.u-spacing-top-s {
+  margin-top: setting-spacing(l);
+}
+
+.u-spacing-top-m {
+  margin-top: setting-spacing(xl);
+}
+
+.u-spacing-top-l {
+  margin-top: setting-spacing(xxl);
+}
